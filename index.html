@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Baseball Code Quiz</title>
+</head>
+<!-- Internally linking css file in my html file -->
+<style>
+   * {
+        box-sizing: border-box;}
+        body{
+            position: relative;
+            font-family: cursive;
+            font-size: medium;
+            line-height: normal;
+            background-image: url(https://live.staticflickr.com/8887/28987708125_fe47f123bd_b.jpg);
+        }
+        h1 {
+            margin: auto;
+            text-align: center;
+            font-size: xx-large;
+            line-height: normal;
+            font-family: cursive;
+            color:red;
+        }
+        .container {
+            text-align: center;
+            margin: auto;
+            padding:5px;
+            background: lightgray;
+        }
+        .main-content {
+            padding: 5%;
+        }
+</style>
+<body>
+    <div class="container">
+        <h1>Baseball Code Quiz</h1>
+        <div id="quiz" class="main-content">
+            <button id="start" class="btn">Play Ball</button>
+            <!-- This is a div I made for the time remaining -->
+            <div id="time"></div>
+            <!-- Questions & Answers -->
+            <div id="question1"></div>
+            <div id="answer1"></div>
+            <div id="question2"></div>
+            <div id="answer2"></div>
+            <div id="question3"></div>
+            <div id="answer3"></div>
+            <div id="question4"></div>
+            <div id="answer4"></div>
+            <div id="question5"></div>
+            <div id="answer5"></div>
+            <div id="question6"></div>
+            <div id="answer6"></div>
+            <div id="question7"></div>
+            <div id="answer7"></div>
+            <div id="question8"></div>
+            <div id="answer8"></div>
+            <div id="question9"></div>
+            <div id="answer9"></div>
+            <div id="submit"></div>
+            <!--  this is a div i made for the results -->
+            <div id="resultsMessage"></div>
+            <div id="correct"></div>
+            <div id="incorrect"></div>
+            <div id="unanswered"></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>
